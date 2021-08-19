@@ -4,13 +4,16 @@
 @import "./header.css";
 @import "./componentes/button.css";
 @import "./componentes/wrapper.css";
+@import "./hero.css";
 
 :root{
   /* Colors */
   --primary-color: #310A90;
   --second-color: #FFF;
-  --primary-font:'Poppins', sans-serif;
   --bg-gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
-}
+
+  /* Fonts */
+  --primary-font:'Poppins', sans-serif;
+  }
 
 
