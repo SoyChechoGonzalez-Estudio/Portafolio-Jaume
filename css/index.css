@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap");
 
 @import "./reset.css";
 @import "./header.css";
+@import "./hero.css";
 @import "./componentes/button.css";
 @import "./componentes/wrapper.css";
-@import "./hero.css";
 
-:root{
+:root {
   /* Colors */
-  --primary-color: #310A90;
-  --second-color: #FFF;
-  --bg-gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  --primary-color: #310a90;
+  --second-color: #fff;
+  --bg-gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
 
   /* Fonts */
-  --primary-font:'Poppins', sans-serif;
-  }
-
-
+  --primary-font: "Poppins", sans-serif;
+  font-family: var(--primary-font);
+}
