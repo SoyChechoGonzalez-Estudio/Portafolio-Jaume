@@ -19,14 +19,3 @@
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
 }
-/* Botones con Iconos */
-.btn-icon {
-  background-color: var(--second-color);
-  padding: 10px;
-  border-radius: 4px;
-  border: 2px solid var(--primary-color);
-  display: inline-block;
-}
-.btn-icon img {
-  vertical-align: middle;
-}

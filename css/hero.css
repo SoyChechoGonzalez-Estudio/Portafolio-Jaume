@@ -27,9 +27,7 @@
   color: var(--primary-color);
   line-height: 24px;
 }
-.hero__social {
-  padding-block-end: 24px;
-}
+
 @media screen and (min-width: 768px) {
   .hero {
     display: flex;

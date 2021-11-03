@@ -1,0 +1,11 @@
+.footer {
+  padding-block: 24px;
+  color: var(--second-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer .social {
+  justify-content: center;
+}

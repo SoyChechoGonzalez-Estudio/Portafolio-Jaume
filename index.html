@@ -15,7 +15,7 @@
   <body>
     <header class="header wrapper">
       <a href="index.html" class="logo">logo</a>
-      <nav class="menu">
+      <nav class="menu" aria-label="navigation">
         <ul>
           <li><a class="is-active" href="#main">Hola</a></li>
           <li><a href="#project">Proyectos</a></li>
@@ -24,7 +24,7 @@
       </nav>
       <button type="" class="btn btn_primary">currículum</button>
     </header>
-    <main class="wrapper">
+    <main class="wrapper" aria-label="main">
       <section class="hero">
         <article class="hero__img">
           <picture>
@@ -45,7 +45,7 @@
             Frontend Developer que le encanta implementar diseños que inspiran y
             atraen a las personas.
           </p>
-          <div class="hero__social">
+          <div class="social">
             <a
               href="https://www.github.com/SoyChechoGonzalez"
               target="__blank"
@@ -87,10 +87,7 @@
           <img src="./assets/images/Macbook.png" alt="Macbook" />
         </figure>
         <article class="projects__text">
-          <a
-            href="https://leonidasesteban.com"
-            class="projects__title"
-            target="_blank"
+          <a href="https://leonidasesteban.com" class="title" target="_blank"
             >leonidasesteban.com</a
           >
           <p>
@@ -123,10 +120,7 @@
           <img src="./assets/images/iPad.png" alt="iPad" />
         </figure>
         <article class="projects__text">
-          <a
-            href="https://leonidasesteban.com"
-            class="projects__title"
-            target="_blank"
+          <a href="https://leonidasesteban.com" class="title" target="_blank"
             >MARVOL</a
           >
           <p>
@@ -163,10 +157,7 @@
           <img src="./assets/images/iPhoneX2.png" alt="iPhone X" />
         </picture>
         <article class="projects__text">
-          <a
-            href="https://leonidasesteban.com"
-            class="projects__title"
-            target="_blank"
+          <a href="https://leonidasesteban.com" class="title" target="_blank"
             >NETNET</a
           >
           <p>
@@ -195,5 +186,38 @@
         <h3>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</h3>
       </section>
     </main>
+    <footer class="footer">
+      <p>
+        Hecho con el ❤️ por
+        <a href="http://sergiogonzalez.co/">SoyChechoGonzalez</a>
+      </p>
+      <p>Copyright 2021 - Todos los derechos reservados.</p>
+      <div class="social">
+        <a
+          href="https://www.github.com/SoyChechoGonzalez"
+          target="__blank"
+          class="btn-icon"
+        >
+          <img src="assets/icons/github.svg" alt="" />
+        </a>
+        <a
+          href="https://www.instagram.com/SoyChechoGonzalez"
+          target="__blank"
+          class="btn-icon"
+        >
+          <img src="assets/icons/instagram.svg" alt="" />
+        </a>
+        <a
+          href="mailto:sergio.gonzalez@sergiogonzalez.co"
+          target="__blank"
+          class="btn-icon"
+        >
+          <img src="assets/icons/mail.svg" alt="" />
+        </a>
+        <a href="tel:1234567" target="__blank" class="btn-icon">
+          <img src="assets/icons/phone.svg" alt="" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

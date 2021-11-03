@@ -7,9 +7,11 @@
 @import "./projects.css";
 @import "./author-message.css";
 @import "./testimonios.css";
+@import "./footer.css";
 @import "./componentes/button.css";
+@import "./componentes/social.css";
 @import "./componentes/wrapper.css";
-@import "./componentes/projects__title.css";
+@import "./componentes/title.css";
 
 :root {
   /* Colors */
