@@ -5,6 +5,10 @@
 .hero__img {
   text-align: center;
 }
+.hero__img img {
+  max-inline-size: 100%;
+  height: auto;
+}
 .hero__texto {
   display: flex;
   flex-direction: column;
