@@ -18,14 +18,14 @@
       <nav class="menu" aria-label="navigation">
         <ul>
           <li><a class="is-active" href="#main">Hola</a></li>
-          <li><a href="#project">Proyectos</a></li>
+          <li><a href="#projects">Proyectos</a></li>
           <li><a href="#contact">Hablemos</a></li>
         </ul>
       </nav>
       <button type="" class="btn btn_primary">currículum</button>
     </header>
     <main class="wrapper" aria-label="main">
-      <section class="hero">
+      <section class="hero" id="main">
         <article class="hero__img">
           <picture>
             <source
@@ -82,7 +82,7 @@
         <p>Aquí hay algunos que me gustaría compartir.</p>
         <i class="fas fa-arrow-down"></i>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <figure class="projects__img">
           <img src="./assets/images/Macbook.png" alt="Macbook" />
         </figure>
@@ -149,13 +149,13 @@
         <h3>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</h3>
       </section>
       <section class="projects">
-        <picture class="projects__img">
+        <figure class="projects__img">
           <source
             srcset="./assets/images/iPhoneX.png"
             media="(min-width: 768px)"
           />
           <img src="./assets/images/iPhoneX2.png" alt="iPhone X" />
-        </picture>
+        </figure>
         <article class="projects__text">
           <a href="https://leonidasesteban.com" class="title" target="_blank"
             >NETNET</a
@@ -185,13 +185,56 @@
         </p>
         <h3>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</h3>
       </section>
+      <form action="" method="POST" class="form" id="contact">
+        <a href="#" class="title" target="_blank">HABLEMOS</a>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+        <label for="form-name">
+          Nombre Completo
+          <input
+            name="name"
+            id="form-name"
+            type="text"
+            placeholder="Nombre Completo"
+            required
+          />
+        </label>
+        <label for="form-email">
+          Correo Electrónico
+          <input
+            name="email"
+            id="form-email"
+            type="email"
+            placeholder="E-mail"
+            required
+          />
+        </label>
+        <label for="form-message">
+          Mensaje
+          <textarea
+            name="message"
+            id="form-message"
+            cols="30"
+            rows="10"
+            placeholder="Mensaje"
+            required
+          ></textarea>
+        </label>
+        <button class="btn btn_primary">Enviar</button>
+      </form>
     </main>
-    <footer class="footer">
-      <p>
-        Hecho con el ❤️ por
-        <a href="http://sergiogonzalez.co/">SoyChechoGonzalez</a>
-      </p>
-      <p>Copyright 2021 - Todos los derechos reservados.</p>
+    <footer class="footer wrapper">
+      <a href="index.html" class="logo footer__logo">logo</a>
+      <div class="footer__copyright">
+        <p class="web">
+          Hecho con el ❤️ por<a href="http://sergiogonzalez.co/" class="web"
+            >SoyChechoGonzalez</a
+          >
+        </p>
+        <p>Copyright 2021 - Todos los derechos reservados.</p>
+      </div>
       <div class="social">
         <a
           href="https://www.github.com/SoyChechoGonzalez"

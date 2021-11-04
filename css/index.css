@@ -7,6 +7,7 @@
 @import "./projects.css";
 @import "./author-message.css";
 @import "./testimonios.css";
+@import "./form.css";
 @import "./footer.css";
 @import "./componentes/button.css";
 @import "./componentes/social.css";
@@ -28,4 +29,7 @@
   --primary-font: "Poppins", sans-serif;
   --second-font: "Oxygen", sans-serif;
   font-family: var(--primary-font);
+}
+html {
+  scroll-behavior: smooth;
 }
