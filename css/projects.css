@@ -23,6 +23,9 @@
   .projects:nth-of-type(odd) .projects__img {
     order: 1;
   }
+  .projects:nth-of-type(odd) .projects__text{
+    order: 2;
+  }
   .projects__text div {
     display: block;
   }
