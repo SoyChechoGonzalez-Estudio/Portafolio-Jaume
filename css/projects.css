@@ -21,10 +21,10 @@
     padding-block: 80px;
   }
   .projects:nth-of-type(even) .projects__img {
-    order: 1;
+    order: 2;
   }
   .projects:nth-of-type(even) .projects__text{
-    order: 2;
+    order: 1;
   }
   .projects__text div {
     display: block;
